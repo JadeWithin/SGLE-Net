@@ -1,0 +1,36 @@
+indianpines:
+  cube_file: Indian_pines_corrected.mat
+  gt_file: Indian_pines_gt.mat
+  cube_key: indian_pines_corrected
+  gt_key: indian_pines_gt
+  layout: mat
+  train_fraction: 0.05
+  validation_fraction: 0.05
+
+longkou:
+  cube_file: WHU-Hi-LongKou.bsq
+  gt_file: WHU-Hi-LongKou_gt.bsq
+  layout: longkou_bsq
+  bands: 270
+  rows: 550
+  cols: 400
+  train_fraction: 0.005
+  validation_fraction: 0.005
+
+sdfc:
+  cube_file: SDFC.mat
+  gt_file: SDFC_gt.mat
+  cube_key: Y_whole_band
+  gt_key: patch_gt
+  layout: mat
+  train_fraction: 0.01
+  validation_fraction: 0.01
+
+houston2013:
+  cube_file: Houston2013_standard.mat
+  gt_file: Houston2013_standard_gt.mat
+  cube_key: Houston
+  gt_key: Houston_gt
+  layout: mat
+  train_fraction: 0.05
+  validation_fraction: 0.05
