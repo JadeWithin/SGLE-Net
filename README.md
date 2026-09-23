@@ -35,13 +35,6 @@ paths and MAT keys can be changed in `configs/datasets.yaml`.
 
 
 
-## Implementation notes
-
-- HSI tensors use `[H, W, B]`; dense logits use `[H, W, C]`.
-- SGLE introduces no learnable parameters.
-- Deployment does not rotate the input and does not use multi-view inference.
-- FRS folding is tested numerically in `tests/test_frs.py`.
-- No dataset, checkpoint, password, token or machine-specific path is included.
 
 ## License
 
